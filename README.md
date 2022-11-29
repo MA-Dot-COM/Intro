@@ -6,6 +6,7 @@
 
 # Built With
 
+<details>
 <summary>Unity(XR) 기술과 사용 이유</summary>
 <div markdown="1">
 
@@ -18,7 +19,8 @@
 
 </div>
 </details>
-## 
+
+<details>
 <summary>AI 기술과 사용 이유</summary>
 <div markdown="1">
 
