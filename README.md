@@ -69,11 +69,11 @@
 ## 이미지 → image classification → 공간
 
 (사진)XR → NET → AI(분석) → NET → (공간)XR
-
-![image-removebg-preview (19)](https://user-images.githubusercontent.com/111809392/205317427-cd9e6372-9368-4d9f-86f3-41c7adfb881a.png)
-![image-removebg-preview (20)](https://user-images.githubusercontent.com/111809392/205317453-a6147b69-ae54-4fe6-8818-6be44fe28bdb.png)
-![image-removebg-preview (21)](https://user-images.githubusercontent.com/111809392/205317463-7ec76e89-f5ce-44f7-a955-9a8bd252d188.png)
-  
+<div>
+<img src="https://user-images.githubusercontent.com/111809392/205317427-cd9e6372-9368-4d9f-86f3-41c7adfb881a.png width="30%"/>
+<img src="https://user-images.githubusercontent.com/111809392/205317453-a6147b69-ae54-4fe6-8818-6be44fe28bdb.png width="30%"/>
+<img src="https://user-images.githubusercontent.com/111809392/205317463-7ec76e89-f5ce-44f7-a955-9a8bd252d188.png width="30%"/>
+<div/>
 ![Untitled (1)](https://user-images.githubusercontent.com/111809392/205317472-345c07bd-c83f-4098-a359-9cb7f0870ba7.png)
 ![Untitled](https://user-images.githubusercontent.com/111809392/205317480-bf87aa5b-7f5a-43e6-b19e-9a27e770ef69.png)
   
