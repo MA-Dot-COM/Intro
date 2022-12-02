@@ -1,6 +1,6 @@
 # SorHive 프로젝트
 - 공간을 통해 일상을 연결하는 플랫폼
-![방이미지](https://user-images.githubusercontent.com/111809392/205321871-c7de56fd-34cc-4a74-9f22-189ec16f87fe.png){: width="100%"}
+![방이미지](https://user-images.githubusercontent.com/111809392/205321871-c7de56fd-34cc-4a74-9f22-189ec16f87fe.png){: width="100%" height="300"}
 
 # Contents
 - [Development-Record](https://github.com/MA-Dot-COM/Intro/wiki/Development-Record)
@@ -8,8 +8,8 @@
 
 # 주요기능
 - 자신의 일상을 담을 수 있는 페이지
-![라이핑1](https://user-images.githubusercontent.com/111809392/205321857-2650fe08-b253-495b-8477-f8120b5522fd.png){: width="50%"}
-![라이핑2](https://user-images.githubusercontent.com/111809392/205321864-1b3b4ccf-4be0-4acd-b671-36a8478f0166.png){: width="50%"}
+![라이핑1](https://user-images.githubusercontent.com/111809392/205321857-2650fe08-b253-495b-8477-f8120b5522fd.png){: width="45%" height="300"}
+![라이핑2](https://user-images.githubusercontent.com/111809392/205321864-1b3b4ccf-4be0-4acd-b671-36a8478f0166.png){: width="45%" height="300"}
 # Built With
 
 <details>
