@@ -1,6 +1,7 @@
-# SorHive 프로젝트
-- 공간을 통해 일상을 연결하는 플랫폼
-<img src="https://user-images.githubusercontent.com/111809392/205321871-c7de56fd-34cc-4a74-9f22-189ec16f87fe.png"/>
+# <img src="https://user-images.githubusercontent.com/111809392/205326221-6542a55f-fae2-4ece-982f-0b9598f4f08c.png" height="50"/>  SorHive 프로젝트 
+
+## 공간을 통해 일상을 연결하는 플랫폼
+<img src="https://user-images.githubusercontent.com/111809392/205321871-c7de56fd-34cc-4a74-9f22-189ec16f87fe.png" height="300"/>
 
 # Contents
 - [Development-Record](https://github.com/MA-Dot-COM/Intro/wiki/Development-Record)
@@ -12,6 +13,7 @@
 <img src="https://user-images.githubusercontent.com/111809392/205321857-2650fe08-b253-495b-8477-f8120b5522fd.png" width="45%"/>
 <img src="https://user-images.githubusercontent.com/111809392/205321864-1b3b4ccf-4be0-4acd-b671-36a8478f0166.png" width="45%"/>
 <div/>
+  
 # Built With
 
 <details>
@@ -59,24 +61,6 @@
 친구 친밀도 도출 시스템은 사용자에게 얼마나 관심이 많은지 클릭해서 본 빈도(룸인, 라이핑, 채팅 등)등 사용자 행동 양식을 수집하여 얼마나 친밀한지 판별하고,
 이를 토대로 사용자에 대해 친밀도 순위를 결정한다.
 
-</div>
-</details>
-
-<details>
-<summary>MLOps</summary>
-<div markdown="1">
- 
-## 이미지 → image classification → 공간
-
-(사진)XR → NET → AI(분석) → NET → (공간)XR
-<div>
-<img src="https://user-images.githubusercontent.com/111809392/205317427-cd9e6372-9368-4d9f-86f3-41c7adfb881a.png width="30%"/>
-<img src="https://user-images.githubusercontent.com/111809392/205317453-a6147b69-ae54-4fe6-8818-6be44fe28bdb.png width="30%"/>
-<img src="https://user-images.githubusercontent.com/111809392/205317463-7ec76e89-f5ce-44f7-a955-9a8bd252d188.png width="30%"/>
-<div/>
-![Untitled (1)](https://user-images.githubusercontent.com/111809392/205317472-345c07bd-c83f-4098-a359-9cb7f0870ba7.png)
-![Untitled](https://user-images.githubusercontent.com/111809392/205317480-bf87aa5b-7f5a-43e6-b19e-9a27e770ef69.png)
-  
 </div>
 </details>
 
@@ -140,17 +124,50 @@
 </div>
 </details>
 
+# MLOps
 <details>
-<summary>테스트</summary>
+<summary>MLOps</summary>
 <div markdown="1">
  
-# Android 디버그 브리지(ADB)의 vmstat 출력값 이용 결과
+## 이미지 → image classification → 공간
+
+(사진)XR → NET → AI(분석) → NET → (공간)XR
+  
+<div>
+  
+<img src="https://user-images.githubusercontent.com/111809392/205317427-cd9e6372-9368-4d9f-86f3-41c7adfb881a.png" width="30%" height="400"/>
+<img src="https://user-images.githubusercontent.com/111809392/205317453-a6147b69-ae54-4fe6-8818-6be44fe28bdb.png" width="30%" height="400"/>
+<img src="https://user-images.githubusercontent.com/111809392/205317463-7ec76e89-f5ce-44f7-a955-9a8bd252d188.png" width="30%" height="400"/>
+                                                                                                                            
+<div/>
+                                                                                                                            
+![Untitled (1)](https://user-images.githubusercontent.com/111809392/205317472-345c07bd-c83f-4098-a359-9cb7f0870ba7.png)
+![Untitled](https://user-images.githubusercontent.com/111809392/205317480-bf87aa5b-7f5a-43e6-b19e-9a27e770ef69.png)
+  
+</div>
+</details>
+ 
+# 테스트
+<details>
+<summary>Android 디버그 브리지(ADB)의 vmstat 출력값 이용 결과</summary>
+<div markdown="1">
+ 
+
   - 실제 사용하던 폰으로 해서 튀는 부분이 일부 존재 한다.
-  - 백그라운드 앱 종료 후 10분간 대기, 이후 앱 구동 & 로그인 후 50분 대기, 이후 앱 종료 후 10분간 대기 한 그래프
+  - 백그라운드 앱 종료 후 10분간 대기
+  - 이후 앱 구동 & 로그인 후 50분 대기
+  - 이후 앱 종료 후 10분간 대기 한 그래프
 ![성능테스트](https://user-images.githubusercontent.com/111809392/205322590-ef6e49ac-3ad7-4bf9-b79a-7828c62a066e.png)
 ![성능테스트2](https://user-images.githubusercontent.com/111809392/205322666-1fe6c65c-4f7a-4339-a374-531bd9e1d0b9.png)
+  
+</div>
+</details>
+  
 
-# Jmeter 이용 3만건 가량의 POST 테스트 결과
+<details>
+<summary>Jmeter 이용 3만건 가량의 POST 테스트 결과</summary>
+<div markdown="1">
+ 
 - AWS Cloud Watch 그래프
 ![부하테스트 결과](https://user-images.githubusercontent.com/111809392/205322686-4f8fb92a-7c86-4572-8899-583ca1d0908d.png)
 ![부하테스트 결과2](https://user-images.githubusercontent.com/111809392/205322699-3fe3e45c-3ce7-4622-9865-3f7d07a657b4.png)
