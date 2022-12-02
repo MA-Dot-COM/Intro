@@ -1,6 +1,6 @@
 # SorHive 프로젝트
 - 공간을 통해 일상을 연결하는 플랫폼
-![방이미지](https://user-images.githubusercontent.com/111809392/205321871-c7de56fd-34cc-4a74-9f22-189ec16f87fe.png)
+![방이미지](https://user-images.githubusercontent.com/111809392/205321871-c7de56fd-34cc-4a74-9f22-189ec16f87fe.png){: width="100%"}
 
 # Contents
 - [Development-Record](https://github.com/MA-Dot-COM/Intro/wiki/Development-Record)
@@ -8,8 +8,8 @@
 
 # 주요기능
 - 자신의 일상을 담을 수 있는 페이지
-![라이핑1](https://user-images.githubusercontent.com/111809392/205321857-2650fe08-b253-495b-8477-f8120b5522fd.png)
-![라이핑2](https://user-images.githubusercontent.com/111809392/205321864-1b3b4ccf-4be0-4acd-b671-36a8478f0166.png)
+![라이핑1](https://user-images.githubusercontent.com/111809392/205321857-2650fe08-b253-495b-8477-f8120b5522fd.png){: width="50%"}
+![라이핑2](https://user-images.githubusercontent.com/111809392/205321864-1b3b4ccf-4be0-4acd-b671-36a8478f0166.png){: width="50%"}
 # Built With
 
 <details>
@@ -143,6 +143,8 @@
 <div markdown="1">
  
 # Android 디버그 브리지(ADB)의 vmstat 출력값 이용 결과
+  - 실제 사용하던 폰으로 해서 튀는 부분이 일부 존재 한다.
+  - 백그라운드 앱 종료 후 10분간 대기, 이후 앱 구동 & 로그인 후 50분 대기, 이후 앱 종료 후 10분간 대기 한 그래프
 ![성능테스트](https://user-images.githubusercontent.com/111809392/205322590-ef6e49ac-3ad7-4bf9-b79a-7828c62a066e.png)
 ![성능테스트2](https://user-images.githubusercontent.com/111809392/205322666-1fe6c65c-4f7a-4339-a374-531bd9e1d0b9.png)
 
