@@ -51,26 +51,23 @@
 친구 친밀도 도출 시스템은 사용자에게 얼마나 관심이 많은지 클릭해서 본 빈도(룸인, 라이핑, 채팅 등)등 사용자 행동 양식을 수집하여 얼마나 친밀한지 판별하고,
 이를 토대로 사용자에 대해 친밀도 순위를 결정한다.
 
-# MLOps
+</div>
+</details>
 
+<details>
+<summary>MLOps</summary>
+<div markdown="1">
+ 
 ## 이미지 → image classification → 공간
 
-                                         (사진)XR → NET → AI(분석) → NET → (공간)XR
+(사진)XR → NET → AI(분석) → NET → (공간)XR
 
-                                                    
-
-![image-removebg-preview (19).png]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fec40d7-9ec1-4a5b-b087-26560840d64c/image-removebg-preview_(19).png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9fec40d7-9ec1-4a5b-b087-26560840d64c/image-removebg-preview_%2819%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221202T143501Z&X-Amz-Expires=86400&X-Amz-Signature=836cdaf813e7ad8de9bc163dd0b1f8d78eaee3f0cb498698e5926bdb562af8b9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22image-removebg-preview%2520%2819%29.png%22&x-id=GetObject))
-
+![image-removebg-preview (19)](https://user-images.githubusercontent.com/111809392/205317427-cd9e6372-9368-4d9f-86f3-41c7adfb881a.png)
+![image-removebg-preview (20)](https://user-images.githubusercontent.com/111809392/205317453-a6147b69-ae54-4fe6-8818-6be44fe28bdb.png)
+![image-removebg-preview (21)](https://user-images.githubusercontent.com/111809392/205317463-7ec76e89-f5ce-44f7-a955-9a8bd252d188.png)
+![Untitled (1)](https://user-images.githubusercontent.com/111809392/205317472-345c07bd-c83f-4098-a359-9cb7f0870ba7.png)
+![Untitled](https://user-images.githubusercontent.com/111809392/205317480-bf87aa5b-7f5a-43e6-b19e-9a27e770ef69.png)
   
-
-![image-removebg-preview (20).png]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e33cb57b-35e7-4a06-8c89-c8ab087d91dd/image-removebg-preview_(20).png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e33cb57b-35e7-4a06-8c89-c8ab087d91dd/image-removebg-preview_%2820%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221202T143546Z&X-Amz-Expires=86400&X-Amz-Signature=4c4467551308032d8f3910438b48d35f01009711fcda81250479e37f08636d2b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22image-removebg-preview%2520%2820%29.png%22&x-id=GetObject))
-
-![image-removebg-preview (21).png]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9f5e1cb-0d01-45a5-abf4-d74e60c38e10/image-removebg-preview_(21).png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c9f5e1cb-0d01-45a5-abf4-d74e60c38e10/image-removebg-preview_%2821%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221202T143603Z&X-Amz-Expires=86400&X-Amz-Signature=bd040fab77b0aea23aba29ca35a6ade8cb030d86801eb09d3031dbb4b36b79ee&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22image-removebg-preview%2520%2821%29.png%22&x-id=GetObject))
-
-![Untitled]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c01271e-e072-4369-a39b-200f03c6f4ce/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8c01271e-e072-4369-a39b-200f03c6f4ce/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221202T143613Z&X-Amz-Expires=86400&X-Amz-Signature=6af2c391f41d914de545aba6ae31b580c075c07160bf3f73792b824ad3c5f2e6&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject))
-
-![Untitled]([https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9887146-c928-4d34-ab32-3dfa481781b3/Untitled.png](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d9887146-c928-4d34-ab32-3dfa481781b3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221202T143622Z&X-Amz-Expires=86400&X-Amz-Signature=4604a6bd24b91eee83697fedf9fe66b3f8ee8eaa37e7389b0ee75bd7cd0dd6c3&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject))
-
 </div>
 </details>
 
