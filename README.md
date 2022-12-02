@@ -24,8 +24,6 @@
 <summary>AI 기술과 사용 이유</summary>
 <div markdown="1">
 
-- [Python](https://www.python.org/)
-  - 
 - [Tensorflow](https://www.tensorflow.org/?hl=ko)
   -
 - [Pytorch](https://pytorch.org/)
@@ -53,6 +51,25 @@
 친구 친밀도 도출 시스템은 사용자에게 얼마나 관심이 많은지 클릭해서 본 빈도(룸인, 라이핑, 채팅 등)등 사용자 행동 양식을 수집하여 얼마나 친밀한지 판별하고,
 이를 토대로 사용자에 대해 친밀도 순위를 결정한다.
 
+# MLOps
+
+## 이미지 → image classification → 공간
+
+                                         (사진)XR → NET → AI(분석) → NET → (공간)XR
+
+                                                    
+
+![image-removebg-preview (19).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fec40d7-9ec1-4a5b-b087-26560840d64c/image-removebg-preview_(19).png)
+
+  
+
+![image-removebg-preview (20).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e33cb57b-35e7-4a06-8c89-c8ab087d91dd/image-removebg-preview_(20).png)
+
+![image-removebg-preview (21).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9f5e1cb-0d01-45a5-abf4-d74e60c38e10/image-removebg-preview_(21).png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8c01271e-e072-4369-a39b-200f03c6f4ce/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9887146-c928-4d34-ab32-3dfa481781b3/Untitled.png)
 
 </div>
 </details>
