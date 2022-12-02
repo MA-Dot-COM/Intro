@@ -8,8 +8,10 @@
 
 # 주요기능
 - 자신의 일상을 담을 수 있는 페이지
+<div>
 <img src="https://user-images.githubusercontent.com/111809392/205321857-2650fe08-b253-495b-8477-f8120b5522fd.png" width="45%"/>
 <img src="https://user-images.githubusercontent.com/111809392/205321864-1b3b4ccf-4be0-4acd-b671-36a8478f0166.png" width="45%"/>
+<div/>
 # Built With
 
 <details>
