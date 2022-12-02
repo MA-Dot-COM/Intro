@@ -146,8 +146,22 @@
   
 </div>
 </details>
- 
+
+# 융합 구조도
+![융합구조도](https://user-images.githubusercontent.com/111809392/205318829-a7071a0d-5c43-4265-b92b-1fedc3d0e5b2.png)
+
+  
 # 테스트
+<details>
+<summary>Jmeter 이용 3만건 가량의 POST 테스트 결과</summary>
+<div markdown="1">
+ 
+- AWS Cloud Watch 그래프
+![부하테스트 결과](https://user-images.githubusercontent.com/111809392/205322686-4f8fb92a-7c86-4572-8899-583ca1d0908d.png)
+![부하테스트 결과2](https://user-images.githubusercontent.com/111809392/205322699-3fe3e45c-3ce7-4622-9865-3f7d07a657b4.png)
+
+</div>
+</details>
 <details>
 <summary>Android 디버그 브리지(ADB)의 vmstat 출력값 이용 결과</summary>
 <div markdown="1">
@@ -159,25 +173,10 @@
   - 이후 앱 종료 후 10분간 대기 한 그래프
 ![성능테스트](https://user-images.githubusercontent.com/111809392/205322590-ef6e49ac-3ad7-4bf9-b79a-7828c62a066e.png)
 ![성능테스트2](https://user-images.githubusercontent.com/111809392/205322666-1fe6c65c-4f7a-4339-a374-531bd9e1d0b9.png)
-  
+
 </div>
 </details>
-  
-
-<details>
-<summary>Jmeter 이용 3만건 가량의 POST 테스트 결과</summary>
-<div markdown="1">
  
-- AWS Cloud Watch 그래프
-![부하테스트 결과](https://user-images.githubusercontent.com/111809392/205322686-4f8fb92a-7c86-4572-8899-583ca1d0908d.png)
-![부하테스트 결과2](https://user-images.githubusercontent.com/111809392/205322699-3fe3e45c-3ce7-4622-9865-3f7d07a657b4.png)
-
-</div>
-</details>
-
-# 융합 구조도
-![융합구조도](https://user-images.githubusercontent.com/111809392/205318829-a7071a0d-5c43-4265-b92b-1fedc3d0e5b2.png)
-
 # Author
 - 박찬영(AI) - [GitHub](https://github.com/orgs/MA-Dot-COM/people/Jneck)
 - 이성빈(AI) - [GitHub](https://github.com/orgs/MA-Dot-COM/people/naya-beene)
