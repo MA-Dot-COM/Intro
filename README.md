@@ -18,7 +18,7 @@
 
 <details>
 <summary>Unity(XR) 기술과 사용 이유</summary>
-<div markdown="1">
+<div markdownd="1">
 
 - [Unity Enterprise](https://store.unity.com/kr/products/unity-enterprise)
   - 전체 UI 및 3D공간
@@ -67,57 +67,59 @@
 <details>
 <summary>Backend(NET) 기술과 사용 이유</summary>
 <div markdown="1">
+  
+### 핵심 프레임워크
+- [SpringBoot](https://spring.io/projects/spring-boot)
+  - 자바 기반의 웹 어플리케이션을 만들 수 있는 프레임워크인 스프링을 더 쉽게 사용할 수 있어서 사용
 
+### Object-relational mapping
+- [JPA](https://spring.io/projects/spring-data-jpa)
+  - 객체와 관계형 데이터베이스를 매핑하여 데이터베이스에 대한 의존성을 줄이고 생산성을 높이고 유지보수 향상, 성능 등의 장점 때문에 사용
+  
+### 데이터 저장
 - [AWS RDS - MySQL](https://aws.amazon.com/ko/rds/mysql/?nc=sn&loc=1)
-  - 정규화를 통해 데이터의 일관성과 무결성을 확보하기 위해 사용했습니다.
-
+  - 정규화를 통해 데이터의 일관성과 무결성을 확보하기 위해 사용
+  
+### 대량 데이터 저장
 - [MongoDB - Atlas](https://www.mongodb.com/ko-kr/cloud/atlas/efficiency)
-  - 방대한 데이터 처리, 수정 필요없는 데이터들만 저장하여 빠르게 조회가 가능해서 사용했습니다.
-  
-- [AWS Ec2](https://aws.amazon.com/ko/ec2/)
-  - 클라우드 환경의 가상 서버를 구축하기 위해 사용했습니다.
-  
+  - 방대한 데이터 처리, 수정 필요없는 데이터들만 저장하여 빠르게 조회가 가능해서 사용
+
+### 파일 저장
 - [AWS S3](https://aws.amazon.com/ko/s3/?nc=sn&loc=0)
-  - 이미지 저장, 호스팅, 뛰어난 보안성 때문에 사용했습니다.
+  - 이미지 저장, 호스팅, 뛰어난 보안성 때문에 사용
+
+### 로드밸런싱 및 CICD
+- [AWS Ec2](https://aws.amazon.com/ko/ec2/)
+  - 클라우드 환경의 가상 서버를 구축하기 위해 사용
   
 - [AWS ElasticBeanstalk](https://aws.amazon.com/ko/elasticbeanstalk/)
   - 서버에서 개발된 웹 애플리케이션 및 서비스를 간단하게 배포하려고 사용한 서비스
-  - 로드밸런싱, 오토스케일링 기능 함께 사용했습니다.
+  - 로드밸런싱, 오토스케일링 기능 함께 사용
 
 - [AWS Route53](https://aws.amazon.com/ko/route53)
-  - ACM 과 ElasticBeanstalk 를 연결하여 사용했습니다.
-  - Domain은 sorhive.shop 을 통해 접속 가능하게 하였습니다.
+  - ACM 과 ElasticBeanstalk 를 연결하여 사용
+  - Domain은 sorhive.shop 을 통해 접속 가능
 
 - [AWS Certificate Manager](https://aws.amazon.com/ko/certificate-manager)
-  - 로드밸런서에 SSL 인증서를 연결하여 사용했습니다.
-  - HTTP에 SSL 인증서를 사용하여 더 안전한 보안용 프로토콜인 HTTPS를 통해 더 안전한 SNS를 위해 사용했습니다.
+  - 로드밸런서에 SSL 인증서를 연결하여 사용
+  - HTTP에 SSL 인증서를 사용하여 더 안전한 보안용 프로토콜인 HTTPS를 통해 더 안전한 SNS를 위해 사용
 
-- [SpringBoot](https://spring.io/projects/spring-boot)
-  - 자바 기반의 웹 어플리케이션을 만들 수 있는 프레임워크인 스프링을 더 쉽게 사용할 수 있어서 사용했습니다.
-  
-- [JPA](https://spring.io/projects/spring-data-jpa)
-  - 객체와 관계형 데이터베이스를 매핑하여 데이터베이스에 대한 의존성을 줄이고 생산성을 높이고 유지보수 향상, 성능 등의 장점 때문에 사용했습니다. 
-  
+### 회원 접근 권한 및 토큰 발급
 - [Spring Security](https://spring.io/projects/spring-security)
-  - 스프링 어플리케이션의 보안을 담당하는 스프링 하위 프레임 워크이고, 인증과 권한 부분을 담당했습니다.
-  - JsonWebToken과 함께 사용하여 토큰 기반으로 접근을 통제했습니다.
+  - 스프링 어플리케이션의 보안을 담당하는 스프링 하위 프레임 워크이고, 인증과 권한 부분을 담당
+  - JsonWebToken과 함께 사용하여 보안성은 떨어지지만 토큰 기반으로 접근을 통제
   
+### 데이터 일괄 처리
 - [Spring Batch](https://spring.io/projects/spring-batch)
-  - 스프링 어플리케이션에서 일괄적인 데이터 처리를 담당하는 스프링 하위 프레임워크이고,
+  - 스프링 어플리케이션에서 일괄적인 데이터 처리를 담당하는 스프링 하위 프레임워크
+  - 메인 서버의 부하를 줄이기 위해 사용
   - 라이핑(스토리)의 특성인 24시간 이후 안보이게 하는 기능
   - 추천배열(AI에 회원 * 회원에 대한 데이터를 통해 받아온 코사인 유사도 기반 추천 정렬)을 받아오고 몽고 DB에 저장하는 기능
-    2 가지를 위해서 사용했습니다.
+    2 가지를 위해서 사용
     
---------
-
-- 회원 접근 권한 및 토큰 발급 : Spring Security, jsonwebtoken
-- 데이터 일괄 처리 : Spring-Batch
-- Object-relational mapping : jpa
-- 이메일 처리 : Spring-Boot-Starter-Mail
-- 로드밸런싱 : AWS Elastic Load Balancing, AWS Route53, AWS ACM
-- 데이터 저장 : RDS
-- 대량 데이터 저장 : MongoDB
-- 파일 저장 : AWS S3
+### 이메일 처리
+- [Spring-Boot-Starter-Mail](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail/3.0.0)
+  - 이메일 처리를 하기 위해 사용
 
 ---------
 
